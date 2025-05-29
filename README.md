@@ -34,17 +34,19 @@
 ### What I learned
 
 #### Small tricks:  
-1. If you want to use html `button` element and style it the way you like, first you have to **unset** all it's default styles like this:  
+1. If you want to use an HTML `button` element and style it the way you like, first you need to **unset** all its default styles like this:  
 ```css
 .button {
   all: unset;
-  /* now you write any styles you want here */
+  /* Now you can write any styles you want here */
+}
 ```
-2. when you want to make a perfect circle from a block element, you set it's `border-radius` to 50%:
+2. When you want to create a perfect circle from a block element, set its `border-radius` to 50%:
 ```css
 .profile__picture {
   border-radius: 50%;
-  overflow: hidden; /* so whatever is in the box, dosn't overflow it from the edges and the effect actually work */
+  overflow: hidden; /* Ensures that anything inside the box doesn’t overflow from the edges, making the effect work properly */
+}
 ```
 ### Useful resources
 
