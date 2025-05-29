@@ -50,6 +50,7 @@ body {
 .name-location {
   display: flex;
   flex-flow: column;
+  align-items: center;
   gap: var(--space-xs);
 }
 
