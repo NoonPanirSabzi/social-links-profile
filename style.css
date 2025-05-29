@@ -97,3 +97,9 @@ body {
 .font--preset-2 {
   font-size: 0.875rem;
 }
+
+@media (width >= 1024px){
+  .profile {
+    width: 24rem;
+  }
+}
