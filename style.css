@@ -30,9 +30,46 @@ body {
   color: var(--white);
   display: flex;
   flex-flow: column;
+  align-items: center;
   gap: var(--space-xl);
   border-radius: var(--space-md);
   box-sizing: border-box;
   padding: clamp(var(--space-xl), 7.5vw, var(--space-xxl));
   width: min(87.2vw, 28.5rem);
+}
+
+.profile__picture {
+  width: 88px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile__picture img {
+  width: 100%;
+}
+
+.name-location {
+  display: flex;
+  flex-flow: column;
+  gap: var(--space-xs);
+}
+
+.links {
+  display: flex;
+  flex-flow: column;
+  gap: var(--space-lg);
+  width: 100%;
+}
+
+.button {
+  all: unset;
+  background-color: var(--gray-700);
+  text-align: center;
+  padding: var(--space-md);
+  border-radius: var(--space-sm);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  color: var(--gray-700);
+  background-color: var(--green);
 }
