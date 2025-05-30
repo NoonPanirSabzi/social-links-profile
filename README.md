@@ -34,9 +34,9 @@
 ### What I learned
 
 #### Small tricks:  
-1. If you want to use an HTML `button` element and style it the way you like, first you need to **unset** all its default styles like this:  
+1. If you want to use an HTML `a` (link) element and style it the way you like, first you need to **unset** all its default styles like this:  
 ```css
-.button {
+.link {
   all: unset;
   /* Now you can write any styles you want here */
 }

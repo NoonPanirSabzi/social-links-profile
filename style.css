@@ -63,6 +63,7 @@ body {
 
 .button {
   all: unset;
+  cursor: pointer;
   background-color: var(--gray-700);
   text-align: center;
   padding: var(--space-md);
@@ -73,6 +74,10 @@ body {
 .button:hover {
   color: var(--gray-700);
   background-color: var(--green);
+}
+
+.button:focus {
+  border: 2px solid white;
 }
 
 .green {
